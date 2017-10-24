@@ -1,3 +1,4 @@
+// Algoritmo que checa se o número é primo 
 int checaprimo(int n){
 	int d = 2;
 	while (d < n){

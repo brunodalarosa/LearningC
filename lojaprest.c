@@ -2,10 +2,10 @@
 main()
 {
 	float valor, en, cent=0;
-	int prest; 
+	int prest;
 	printf("Informe o valor do produto!\n");
 	scanf("%f",&valor);
-	prest=valor/3;
+	prest=valor/3; // divide o valor em 3 prestações
 	cent=valor-prest*3;
 	en=prest+cent;
 	printf("A entrada será de %.2f e as outras duas prestações serão de %i\n",en,prest);

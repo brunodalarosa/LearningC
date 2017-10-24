@@ -1,4 +1,8 @@
+/* Bruno Cesar
+   Projetando o Easy Menu em pleno 2k15
+*/
 #include <stdio.h>
+
 
 typedef struct{
   char *nome;
